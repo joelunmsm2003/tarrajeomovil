@@ -20,4 +20,6 @@ admin.site.site_header = 'Tarrajeo System'
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^servicios/', 'app.views.servicios'),
+
 ]
